@@ -4,7 +4,7 @@ metadata:
   namespace: example06
   generateName: slack-notify-
   annotations:
-    argocd.argoproj.io/hook: PostSync-wave "30"
+    argocd.argoproj.io/hook: PostSync "30"
   labels:
     codefresh.io/cert: slack-job  
 spec:
